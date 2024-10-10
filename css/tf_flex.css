@@ -62,9 +62,15 @@ section#topics article {
 */
 
 @media only screen and (max-width: 480px) {
-  
+   aside {
+      -webkit-order: 66;
+      order: 66;
+   }
 
- 
+   footer {
+      -webkit-order: 69;
+      order: 69;
+   }
 }
 
 /* ============================================
